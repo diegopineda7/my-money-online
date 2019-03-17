@@ -1,0 +1,87 @@
+form{
+	padding: 0;
+	margin: auto;
+	align-items: center;
+	
+}
+
+form label{
+	font-family: PoetsenOne-Regular;
+	font-size: 1.3em;
+	color: rgba(205, 56, 56, 1);
+	display: block;
+		}
+
+form #button{
+text-decoration: none;
+color: rgba(112, 164, 188, 1);
+text-align: center;
+font-family: PoetsenOne-Regular;
+font-size: 1.15em;
+border-radius: 20px;
+box-shadow: 2px 2px 20px #000000;
+margin: auto;
+padding: 10px;
+border: 0;
+cursor: pointer;
+align-items: center;
+background-color: rgba(255, 255, 255, 1);
+}
+
+ form #button:hover{
+ 	background-color: rgba(255, 255, 255, 0);
+ 	box-shadow: 2px 2px 20px #000000;
+ }
+
+form input{
+border-radius: 10px;
+width: 35%;
+
+}
+
+ form #nombre{
+font-family: PoetsenOne-Regular;
+font-size: 1.1em;
+color: #000000;
+text-align: center;
+padding: 5px;
+
+
+ }
+
+form #email{
+font-family: PoetsenOne-Regular;
+font-size: 1.1em;
+color: #000000;
+text-align: center;
+padding: 5px;
+
+ }
+
+form #mensaje{
+font-family: PoetsenOne-Regular;
+font-size: 1.1em;
+color: #000000;
+text-align: center;
+max-width: 80%;
+min-width: 80%;
+width: 80%;
+padding: 5px;
+height: 125px;
+border-radius: 20px;
+
+ }
+
+/* individual: webkit */
+	#nombre::-webkit-input-placeholder { font-family: PoetsenOne-Regular; text-align: center; color: #000000; font-size: 1em;}
+	#email::-webkit-input-placeholder { font-family: PoetsenOne-Regular; text-align: center; color: #000000; font-size: 1em;}
+	#mensaje::-webkit-input-placeholder { font-family: PoetsenOne-Regular; text-align: center; color: #000000; font-size: 1em; }
+
+	/* individual: mozilla */
+	#nombre::-moz-placeholder { font-family: PoetsenOne-Regular; text-align: center; color: #000000; font-size: 1em;}
+	#email::-moz-placeholder { font-family: PoetsenOne-Regular; text-align: center; color: #000000; font-size: 1em; }
+	#mensaje::-moz-placeholder { font-family: PoetsenOne-Regular; 	text-align: center; color: #000000; font-size: 1em;}
+
+	
+
+
